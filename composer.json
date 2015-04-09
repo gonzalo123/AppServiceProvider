@@ -1,0 +1,30 @@
+{
+  "name": "gonzalo123/AppServiceProvider",
+  "description": "dumper",
+  "license": "MIT",
+  "keywords": [
+    "silex", "serviceProvider"
+  ],
+  "author": [
+    {
+      "name": "Gonzalo Ayuso",
+      "email": "gonzalo123@gmail.com",
+      "url": "http://gonzalo123.com"
+    }
+  ],
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "G\\": "src/"
+    }
+  },
+  "require": {
+    "silex/silex": "1.3.*@dev",
+    "gonzalo123/angularpostrequestserviceprovider": "1.0.*@dev"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
