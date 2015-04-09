@@ -1,6 +1,6 @@
 {
   "name": "gonzalo123/app-service-provider",
-  "description": "dumper",
+  "description": "Silex ServiceProvider to build mobile backends",
   "license": "MIT",
   "keywords": [
     "silex", "serviceProvider"
